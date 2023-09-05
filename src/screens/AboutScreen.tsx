@@ -9,9 +9,7 @@ import {
   useWindowDimensions,
 } from 'react-native';
 import {styles} from '../theme/appTheme';
-import profilePic from '../assets/images/profile.png';
-import linkedin from '../assets/images/linkedin.png';
-import github from '../assets/images/github.png';
+import {profilePic, github, linkedin} from '../assets/index';
 
 export const AboutScreen = () => {
   const {width} = useWindowDimensions();

@@ -8,8 +8,7 @@ import {
   TouchableOpacity,
   useWindowDimensions,
 } from 'react-native';
-import aboutMe from '../assets/images/about2.png';
-import userImage from '../assets/images/userTitle4.png';
+import {userImage, aboutMe} from '../assets/index';
 import {useUsers} from '../hooks/useUsers';
 import {styles} from '../theme/appTheme';
 import {UserList} from '../components/UserList';
